@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #7b68f9;
+  --color-background: #f7f7fc;
+  --color-text-primary: #3e4756;
+  --color-border: #dcddeb;
+  --color-cancel: #a0a3bd;
+  --color-danger: #dc2b2b;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--color-background);
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
